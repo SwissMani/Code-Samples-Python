@@ -13,8 +13,7 @@ def spaceIsFree(pos):
  
  
 def isWinner(bo, le):
-    # Given a board and a player’s letter, this function returns True if that player has won.
-    # We use bo instead of board and le instead of letter so we don’t have to type as much.
+    #This is the Player Field 
     return ((bo[7] == le and bo[8] == le and bo[9] == le) or # across the top
     (bo[4] == le and bo[5] == le and bo[6] == le) or # across the middle
     (bo[1] == le and bo[2] == le and bo[3] == le) or # across the bottom
